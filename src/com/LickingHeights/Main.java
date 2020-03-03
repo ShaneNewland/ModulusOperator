@@ -7,13 +7,33 @@ public class Main {
     //todo keep number contained
     //todo get the lost digit
 
-   //we want to find if a number is even or odd
-   int number = 17;
-   System.out.println("Number is even:"+(number % 2 ==0));
-   System.out.println("Number is odd:"+(number % 2 !=0));
+   //we want to keep a number contained
+   int number = 4;
+   System.out.println((number%5)+1);
 
-   //testOddness
+   number = 5;
+   System.out.println((number%5)+1);
 
+   number = 6;
+   System.out.println((number%5)+1);
+
+   number = 8;
+   System.out.println((number%5)+1);
+
+   number = 9;
+   System.out.println((number%5)+1);
+
+   number = 10;
+   System.out.println((number%5)+1);
+
+   number = 11;
+   System.out.println((number%5)+1);
+
+   number = 12;
+   System.out.println((number%5)+1);
+
+   number = 13;
+   System.out.println((number%5)+1);
 
 
 
